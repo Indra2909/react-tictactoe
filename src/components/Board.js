@@ -62,6 +62,9 @@ const Board = () => {
 
   return (
     <div className="container">
+      <div className="title">
+        <h1>Tic Tac Toe</h1>
+      </div>
       <div className="board">
         {createSquare(0)}
         {createSquare(1)}
